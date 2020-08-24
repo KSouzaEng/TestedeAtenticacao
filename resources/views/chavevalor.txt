@@ -1,0 +1,7 @@
+<h1>Dados</h1>
+@foreach ($data as $key=>$d)
+    <ul>
+    <li>{{$key}} : {{$d}}</li>
+    </ul>
+@endforeach
+<script src='{{ asset ('js/cep.js')}}'></script>
